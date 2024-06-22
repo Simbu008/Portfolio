@@ -3,7 +3,7 @@
   "name": "portfolio-server",
   "builds": [
     {
-      "src": "./server.js",
+      "src": "*.js",
       "use": "@vercel/node"
     }
   ],
