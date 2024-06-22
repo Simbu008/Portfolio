@@ -130,7 +130,7 @@ function App() {
                     className="bg-primary px-1 py-1 border border-secondary rounded-full text-secondary  hover:bg-secondary hover:text-black"
                   />
                 </a>
-                <a href="/" target="_blank">
+                <a href="https://github.com/Simbu008" target="_blank">
                   <FontAwesomeIcon
                     icon={faGithub}
                     className="bg-primary px-1 py-1 border border-secondary rounded-full text-secondary  hover:bg-secondary hover:text-black"
