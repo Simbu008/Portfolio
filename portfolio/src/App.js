@@ -42,7 +42,7 @@ function App() {
     console.log("Form Data:", formData);
 
     try {
-      const response = await fetch("http://localhost:5000/send", {
+      const response = await fetch("https://portfolio-server-eight-wine.vercel.app/send", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
