@@ -3,15 +3,14 @@
   "name": "portfolio-server",
   "builds": [
     {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": { "distDir": "build" }
+      "src": "./server.js",
+      "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/$1"
+      "dest": "/"
     }
   ]
 }
