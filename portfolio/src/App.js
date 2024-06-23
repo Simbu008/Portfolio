@@ -42,13 +42,16 @@ function App() {
     console.log("Form Data:", formData);
 
     try {
-      const response = await fetch("https://portfolio-server-eight-wine.vercel.app/send", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+      const response = await fetch(
+        "https://portfolio-server-eight-wine.vercel.app/send",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
 
       if (response.ok) {
         alert("Message sent successfully");
@@ -71,7 +74,7 @@ function App() {
   const handleDownload = () => {
     // URL of the file you want to download
     const fileUrl =
-      "https://drive.google.com/file/d/1_j-WDepPNsbS6qXoQTMc4etVccjVrSLs/view?usp=drive_link";
+      "https://drive.google.com/file/d/15hGDNq-cnUPhojv2E74SHrClXx4xF-D4/view?usp=drivesdk";
 
     // Create a temporary anchor element
     const link = document.createElement("a");
