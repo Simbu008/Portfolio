@@ -125,7 +125,7 @@ function App() {
 
               <div className="px-2 space-x-3">
                 <a
-                  href="https://www.linkedin.com/in/silambarasan-k-527b58207"
+                  href="https://www.linkedin.com/in/silambarasank08/"
                   target="_blank"
                 >
                   <FontAwesomeIcon
